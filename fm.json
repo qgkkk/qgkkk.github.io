@@ -5,6 +5,16 @@
 {"name":"IPv6001","type":0,"url":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718114949789/tv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}",
 "logo":"https://epg.112114.xyz/logo/{name}.png"}],
   "sites": [
+    		{
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"indexs":1,
+			"ext": "./lib/douban.json"
+		},
             {
       "key": "玩偶哥哥",
       "name": "玩偶哥哥",
