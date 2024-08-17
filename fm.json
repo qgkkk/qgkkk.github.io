@@ -1,0 +1,203 @@
+{
+  "spider": "./custom_spider.jar",
+    "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
+   "lives":[
+{"name":"IPv6001","type":0,"url":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718114949789/tv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+"logo":"https://epg.112114.xyz/logo/{name}.png"}],
+  "sites": [
+            {
+      "key": "玩偶哥哥",
+      "name": "玩偶哥哥",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json",
+        "siteUrl": "https://www.wogg.bf/",
+        "filter": "./wogg.json"
+      }
+      },
+          {
+      "key": "ConfigCenter",
+      "name": "配置中心",
+      "type": 3,
+      "api": "csp_ConfigCenter",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json"
+      }
+    },
+      {  "key": "Tg云盘分享",
+         "name": "Tg云盘分享", 
+         "type": 3,
+         "api": "csp_TgYunPan",  
+         "searchable": 1,
+         "filterable": 0,  
+         "switchable": 0,
+  "ext": {   
+   "siteUrl": "http://144.126.217.226:8000",
+    "channelUsername": "yunpanshare",    "commonConfig": "./peizhi.json"
+  }},
+        {  "key": "Tg阿里云盘",
+         "name": "Tg阿里云盘", 
+         "type": 3,
+         "api": "csp_TgYunPan",  
+         "searchable": 1,
+         "filterable": 0,  
+         "switchable": 0,
+  "ext": {   
+   "siteUrl": "http://144.126.217.226:8000",
+    "channelUsername": "https://t.me/Aliyundrive_Share_Channel",    "commonConfig": "./peizhi.json"
+  }},
+        {  "key": "Tg夸克云盘",
+         "name": "Tg夸克云盘", 
+         "type": 3,
+         "api": "csp_TgYunPan",  
+         "searchable": 1,
+         "filterable": 0,  
+         "switchable": 0,
+  "ext": {   
+   "siteUrl": "http://144.126.217.226:8000",
+    "channelUsername": "https://t.me/Quark_Share_Channel",    "commonConfig": "./peizhi.json"
+  }},
+          {  "key": "Tg115云盘",
+         "name": "Tg115云盘", 
+         "type": 3,
+         "api": "csp_TgYunPan",  
+         "searchable": 1,
+         "filterable": 0,  
+         "switchable": 0,
+  "ext": {   
+   "siteUrl": "http://144.126.217.226:8000",
+    "channelUsername": "guaguale115",    "commonConfig": "./peizhi.json"
+  }},
+            {
+      "key": "六趣网盘",
+      "name": "六趣网盘",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "./custom_spider.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json",
+        "siteUrl": "http://cms3.715d.com/",       
+         "filter": "./wogg.json"
+      }
+      },
+    {
+      "key": "蜡笔网盘",
+      "name": "蜡笔网盘",
+      "type": 3,
+      "api": "csp_kongbai",
+      "jar": "./custom_spider.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json",
+        "siteUrl": "https://duopan.fun",       
+         "filter": "./wogg.json"
+      }
+      },
+          {
+      "key": "奥秘网盘",
+      "name": "奥秘网盘",
+      "type": 3,
+      "api": "csp_kongbai",
+      "jar": "./custom_spider.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json",
+        "siteUrl": "https://vip.omii.top/",       
+         "filter": "./wogg.json"
+      }
+      },
+                {
+      "key": "至臻视觉网盘",
+      "name": "至臻视觉网盘",
+      "type": 3,
+      "api": "csp_kongbai",
+      "jar": "./custom_spider.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json",
+        "siteUrl": "https://mihdr.top/",       
+         "filter": "./wogg.json"
+      }
+      },
+          {
+      "key": "土豆网盘",
+      "name": "土豆网盘",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json",
+        "siteUrl": "https://tudou.lvdoui.top",
+         "filter": "./wogg.json"
+      }
+      },
+      {
+      "key": "玩你哥哥",
+      "name": "玩你哥哥",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json",
+        "siteUrl": "https://tv.yydsys.top/",       
+         "filter": "./wogg.json"
+      }
+      },
+           {
+  "key": "网盘集合",
+  "name": "真心大佬网盘集合",
+  "type": 3,
+  "api": "csp_网盘集合",
+  "jar":"./custom_spider.jar",
+  "searchable": 1,
+  "filterable": 0,
+  "switchable": 0,
+  "ext": {
+    "commonConfig": "./peizhi.json",
+    "share": "./网盘集合.json"
+  }
+},
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_Push",
+       "jar":"./custom_spider.jar",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json"
+        }
+        },
+            {
+      "key": "盘搜",
+      "name": "盘搜",
+      "type": 3,
+      "api": "csp_PanSearch",
+       "jar":"./custom_spider.jar",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json"
+        }
+        }
+  ]
+}
