@@ -13,7 +13,7 @@
 			"searchable": 0,
 			"changeable": 1,
 			"indexs":1,
-			"ext": "./lib/douban.json"
+			"ext": "./douban.json"
 		},
             {
       "key": "玩偶哥哥",
